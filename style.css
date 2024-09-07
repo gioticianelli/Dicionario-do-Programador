@@ -1,0 +1,210 @@
+ /* Fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,opsz,wght@0,5..1200,300..900&display=swap');
+
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    background-image: url(/imagens/9.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit;        /* Herda a cor do texto do pai */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .resultados-pesquisa {
+        width: 90%;
+    }
+}
+
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #f4f4eb;
+    font-size: 3.5rem;
+    text-align: left;
+    margin: 0rem;
+    padding-left: 10px; 
+    margin-bottom: 0.5rem;
+}
+
+.smaller-text {
+    font-family: "Josefin Sans", sans-serif;
+    color: #d2d2cd;
+    font-size: 1rem; 
+    display: block;
+    padding-left: 4px;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #ced6d0;
+    font-size: 0.65rem;
+    text-align: left;
+    margin: 0rem; /*manda pra cima só o de cima*/
+    padding-left: 16px; 
+    margin-bottom: 0.5rem; /*vai mandar pra cima tudo*/
+}
+
+section {
+    font-family: "Josefin Sans", sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 1rem;
+   
+}
+
+/* Barra de pesquisa */
+section input {
+    font-family: "Josefin Sans", sans-serif;
+    width: 20.5rem; /* Largura da barra de pesquisa */
+    border: none; /* Remove a borda padrão */
+    padding: 0.6rem; /* Espaçamento interno */
+    border-radius: 1rem; /* Borda arredondada */
+    margin-bottom: 0.5rem; /* Espaçamento entre o input e o botão */
+    color: #174135; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    text-align: center; /* Alinha o texto dentro do campo de pesquisa ao centro */
+}
+
+/* Botão dentro da seção (Pesquisar) */
+section button {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #174135; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    font-family: "Josefin Sans", sans-serif;
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: scroll; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    color: #dae5e2e0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.resultados-pesquisa::-webkit-scrollbar {
+    width: 0; /* Oculta a barra de rolagem vertical */
+    background: transparent; /* Opcional: remove o fundo da área da barra de rolagem */
+}
+
+
+
+/* Borda da seção*/
+.item-resultado {
+    font-family: "Josefin Sans", sans-serif;
+    background: rgba(167, 163, 163, 0.274); /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #f7fcfa; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #17413593; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    font-family: "Josefin Sans", sans-serif;
+    color: #28212e; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+.exemplo-meta {
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(84, 84, 85);
+    font-family: 'Courier New', Courier, monospace; /* Fonte para o código */
+    background-color: #efe5f069; /* Cor de fundo do exemplo */
+    border: 1px solid #1b1a1a26; /* Borda ao redor do exemplo */
+    border-radius: 4px; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    overflow-x: auto; /* Rolagem horizontal se necessário */
+    white-space: pre-wrap; /* Preserve quebras de linha */
+}
+
+.container {
+    overflow: hidden;
+}
+
+
+footer {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #06070F; /* Cor de fundo do rodapé */
+    color: #76787a; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: fixed; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 0rem; /* Tamanho da fonte */
+}
+
+
+section button {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #174135; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s ease; /* Adiciona transição suave à cor de fundo */
+    transition: transform 0.3s ease; /* Adiciona transição suave ao efeito de transformação */
+
+}
+
+section button:hover {
+    background-color: #35444056; /* Nova cor de fundo ao passar o cursor */
+    transform: translateY(5px); /* Move o botão 5 pixels para cima ao passar o cursor */
+
+}
