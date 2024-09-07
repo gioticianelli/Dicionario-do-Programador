@@ -45,7 +45,7 @@ cd Dicionário do Programdor
 **Pronto!** Agora você pode começar a explorar e aprender novos termos com o Dicionário do Programador.
 
 ## 🤝🏼 Contribuições
-Contribuições são bem-vindas! Se você tem ideias de novas missões, melhorias de código ou otimizações de desempenho, sinta-se à vontade para abrir um pull request. Aqui estão algumas maneiras de contribuir:
+Contribuições são bem-vindas! Se você tem ideias de novas melhorias de código ou otimizações de desempenho, sinta-se à vontade para abrir um pull request. Aqui estão algumas maneiras de contribuir:
 - Reportar bugs 
 - Sugerir novas funcionalidades 
 - Melhorar a documentação 
