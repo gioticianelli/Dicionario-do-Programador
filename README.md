@@ -2,7 +2,7 @@
 
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 
-
+O Dicionário do Programador é uma ferramenta para entender termos técnicos de programação. Ele oferece explicações concisas e exemplos práticos para uma variedade de conceitos e tecnologias, assim ajudando do iniciante até o profissional.
 
 
 ## Resumo
