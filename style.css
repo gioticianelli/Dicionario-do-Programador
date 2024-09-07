@@ -27,7 +27,7 @@ header a {
     color: inherit;        /* Herda a cor do texto do pai */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768rem) {
     h1 {
         font-size: 2.5rem;
     }
@@ -42,7 +42,7 @@ h1 {
     font-size: 3.5rem;
     text-align: left;
     margin: 0rem;
-    padding-left: 10px; 
+    padding-left: 10rem; 
     margin-bottom: 0.5rem;
 }
 
@@ -51,7 +51,7 @@ h1 {
     color: #d2d2cd;
     font-size: 1rem; 
     display: block;
-    padding-left: 4px;
+    padding-left: 4rem;
 }
 
 h2 {
@@ -60,7 +60,7 @@ h2 {
     font-size: 0.65rem;
     text-align: left;
     margin: 0rem; /*manda pra cima só o de cima*/
-    padding-left: 16px; 
+    padding-left: 16rem; 
     margin-bottom: 0.5rem; /*vai mandar pra cima tudo*/
 }
 
@@ -165,8 +165,8 @@ section button {
     color: rgb(84, 84, 85);
     font-family: 'Courier New', Courier, monospace; /* Fonte para o código */
     background-color: #efe5f069; /* Cor de fundo do exemplo */
-    border: 1px solid #1b1a1a26; /* Borda ao redor do exemplo */
-    border-radius: 4px; /* Borda arredondada */
+    border: 1rem solid #1b1a1a26; /* Borda ao redor do exemplo */
+    border-radius: 4rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     overflow-x: auto; /* Rolagem horizontal se necessário */
     white-space: pre-wrap; /* Preserve quebras de linha */
@@ -206,6 +206,6 @@ section button {
 
 section button:hover {
     background-color: #35444056; /* Nova cor de fundo ao passar o cursor */
-    transform: translateY(5px); /* Move o botão 5 pixels para cima ao passar o cursor */
+    transform: translateY(5rem); /* Move o botão 5 pixels para cima ao passar o cursor */
 
 }
