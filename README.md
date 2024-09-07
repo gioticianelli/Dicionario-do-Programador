@@ -4,7 +4,7 @@
 
 O Dicionário do Programador é uma ferramenta para entender termos técnicos de programação. Ele oferece explicações concisas e exemplos práticos para uma variedade de conceitos e tecnologias, assim ajudando do iniciante até o profissional.
 
-http://127.0.0.1:5500/index.html
+ACESSE O SITE [AQUI](https://gioticianelli.github.io/Dicionario-do-Programador/)
 
 
 ## Resumo
