@@ -7,8 +7,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400; 
     font-style: normal;
-    background-image: url('fundo.png');
-    background-size: cover;
+    background:radial-gradient(at 97.11273985448447% 47.66967476544715%, hsla(230.7692307692308, 94.54545454545455%, 21.568627450980394%, 1) 0%, hsla(230.7692307692308, 94.54545454545455%, 21.568627450980394%, 0) 100%), radial-gradient(at 17.30485913901434% 95.59168813609912%, #b210ad 0%, hsla(301.85185185185185, 83.50515463917526%, 38.03921568627451%, 0) 100%), radial-gradient(at 28.54468510991859% 38.5697532124152%, hsla(225, 80%, 45.09803921568628%, 1) 0%, hsla(225, 80%, 45.09803921568628%, 0) 100%), radial-gradient(at 26.1491856420228% 82.3553237723932%, hsla(223.6046511627907, 75.43859649122808%, 44.705882352941174%, 1) 0%, hsla(223.6046511627907, 75.43859649122808%, 44.705882352941174%, 0) 100%), radial-gradient(at 76.56503990747032% 35.94752122373854%, hsla(230.7692307692308, 94.54545454545455%, 21.568627450980394%, 1) 0%, hsla(230.7692307692308, 94.54545454545455%, 21.568627450980394%, 0) 100%), radial-gradient(at 22.32907074614856% 79.6505594104903%, hsla(301.85185185185185, 83.50515463917526%, 38.03921568627451%, 1) 0%, hsla(301.85185185185185, 83.50515463917526%, 38.03921568627451%, 0) 100%);                               
     background-position: center;
     display: flex;
     flex-direction: column; 
@@ -194,7 +193,7 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #174135; /* Cor de fundo do botão */
+    background-color: #b210ad; /* Cor de fundo do botão */
     color: #F5F7F8; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
