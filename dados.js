@@ -56,11 +56,6 @@ let dados = [
       "exemplo": "<canvas id='meuCanvas'></canvas>"
     },
     {
-      "titulo": "caption",
-      "descricao": "Define uma legenda para uma tabela.",
-      "exemplo": "<caption>Legenda da Tabela</caption>"
-    },
-    {
       "titulo": "cite",
       "descricao": "Define o título de uma obra citada.",
       "exemplo": "<cite>Título da Obra</cite>"
@@ -131,11 +126,6 @@ let dados = [
       "exemplo": "<fieldset><legend>Informações Pessoais</legend></fieldset>"
     },
     {
-      "titulo": "figcaption",
-      "descricao": "Especifica uma legenda para o conteúdo de um elemento <figure>.",
-      "exemplo": "<figcaption>Legenda da Figura</figcaption>"
-    },
-    {
       "titulo": "figure",
       "descricao": "Especifica conteúdo autônomo, como ilustrações, diagramas, fotos, listagens de códigos.",
       "exemplo": "<figure><img src='imagem.png'><figcaption>Descrição da Imagem</figcaption></figure>"
@@ -181,19 +171,9 @@ let dados = [
       "exemplo": "<label for='nome'>Nome:</label>"
     },
     {
-      "titulo": "legend",
-      "descricao": "Define uma legenda para um elemento <fieldset>.",
-      "exemplo": "<legend>Informações Pessoais</legend>"
-    },
-    {
       "titulo": "link",
       "descricao": "Especifica a relação entre o documento atual e um recurso externo.",
       "exemplo": "<link rel='stylesheet' href='styles.css'>"
-    },
-    {
-      "titulo": "main",
-      "descricao": "Especifica o conteúdo principal de um documento.",
-      "exemplo": "<main>Conteúdo Principal</main>"
     },
     {
       "titulo": "map",
@@ -409,11 +389,6 @@ let dados = [
       "titulo": "wbr",
       "descricao": "Indica uma possível quebra de linha no texto.",
       "exemplo": "UmTexto<wbr>Longo"
-    },
-    {
-      "titulo": "legend",
-      "descricao": "Define uma legenda para o elemento <fieldset>.",
-      "exemplo": "<legend>Informações Pessoais</legend>"
     },
     {
       titulo: 'DNS (Sistema de Nomes de Domínio)',
@@ -681,11 +656,6 @@ let dados = [
       exemplo: "filter: grayscale(100%);",
     },
     {
-      titulo: "clip-path",
-      descricao: "Propriedade CSS usada para definir uma forma de recorte para um elemento.",
-      exemplo: "clip-path: circle(50%);",
-    },
-    {
       titulo: "position: absolute",
       descricao: "Define um posicionamento absoluto do elemento em relação ao contêiner mais próximo com posicionamento relativo.",
       exemplo: "<div style='position: absolute; top: 10px; left: 20px;'>Posicionado Absoluto</div>",
@@ -720,11 +690,6 @@ let dados = [
       titulo: "align-items",
       descricao: "Propriedade CSS usada para definir o alinhamento dos itens ao longo do eixo transversal em um contêiner flexível.",
       exemplo: "align-items: center;",
-    },
-    {
-      titulo: "align-self",
-      descricao: "Propriedade CSS usada para definir o alinhamento de um item individual ao longo do eixo transversal em um contêiner flexível.",
-      exemplo: "align-self: flex-end;",
     },
     {
       titulo: "grid-template-columns",
@@ -797,16 +762,6 @@ let dados = [
       exemplo: "background-color: #f0f0f0;",
     },
     {
-      titulo: "background-image",
-      descricao: "Propriedade CSS usada para definir uma imagem de fundo para um elemento.",
-      exemplo: "background-image: url('image.jpg');",
-    },
-    {
-      titulo: "background-clip",
-      descricao: "Propriedade CSS usada para definir até onde a cor de fundo é exibida em relação ao contêiner.",
-      exemplo: "background-clip: padding-box;",
-    },
-    {
       titulo: "border-radius",
       descricao: "Propriedade CSS usada para definir os cantos arredondados de um elemento.",
       exemplo: "border-radius: 10px;",
@@ -860,11 +815,6 @@ let dados = [
       titulo: "vertical-align",
       descricao: "Propriedade CSS usada para definir o alinhamento vertical do texto ou de um elemento em relação a seu contêiner.",
       exemplo: "vertical-align: middle;",
-    },
-    {
-      titulo: "letter-spacing",
-      descricao: "Propriedade CSS usada para definir o espaçamento entre letras.",
-      exemplo: "letter-spacing: 0.5px;",
     },
     {
       titulo: "direction",
@@ -1002,11 +952,6 @@ let dados = [
       exemplo: "clear: both;",
     },
     {
-      titulo: "display",
-      descricao: "Propriedade CSS usada para definir o tipo de caixa de exibição de um elemento.",
-      exemplo: "display: block;",
-    },
-    {
       titulo: "overflow",
       descricao: "Propriedade CSS usada para definir como o conteúdo que ultrapassa a caixa do elemento deve ser tratado.",
       exemplo: "overflow: hidden;",
@@ -1025,11 +970,6 @@ let dados = [
       titulo: "mix-blend-mode",
       descricao: "Propriedade CSS usada para definir como um elemento deve ser misturado com o conteúdo abaixo.",
       exemplo: "mix-blend-mode: multiply;",
-    },
-    {
-      titulo: "background-blend-mode",
-      descricao: "Propriedade CSS usada para definir como as imagens de fundo devem ser misturadas com a cor de fundo.",
-      exemplo: "background-blend-mode: overlay;",
     },
     {
       titulo: "clip-path",
@@ -1172,11 +1112,6 @@ let dados = [
       exemplo: "text-indent: 20px;"
     },
     {
-      titulo: "hyphens",
-      descricao: "Propriedade CSS usada para definir se e como as palavras devem ser divididas automaticamente no final da linha.",
-      exemplo: "hyphens: auto;"
-    },
-    {
       titulo: "direction",
       descricao: "Propriedade CSS usada para definir a direção do texto, como esquerda para direita ou direita para esquerda.",
       exemplo: "direction: rtl;"
@@ -1317,16 +1252,6 @@ let dados = [
       exemplo: "visibility: hidden;"
     },
     {
-      titulo: "background-color",
-      descricao: "Propriedade CSS usada para definir a cor de fundo de um elemento.",
-      exemplo: "background-color: #f0f0f0;"
-    },
-    {
-      titulo: "background-image",
-      descricao: "Propriedade CSS usada para definir uma imagem de fundo para um elemento.",
-      exemplo: "background-image: url('image.jpg');"
-    },
-    {
       titulo: "background-clip",
       descricao: "Propriedade CSS usada para definir até onde a cor de fundo é exibida em relação ao contêiner.",
       exemplo: "background-clip: padding-box;"
@@ -1367,11 +1292,6 @@ let dados = [
       exemplo: "table-layout: fixed;"
     },
     {
-      titulo: "caption-side",
-      descricao: "Propriedade CSS usada para definir a posição da legenda de uma tabela.",
-      exemplo: "caption-side: top;"
-    },
-    {
       titulo: "empty-cells",
       descricao: "Propriedade CSS usada para definir se as células vazias de uma tabela devem ser exibidas.",
       exemplo: "empty-cells: show;"
@@ -1385,11 +1305,6 @@ let dados = [
       titulo: "vertical-align",
       descricao: "Propriedade CSS usada para definir o alinhamento vertical do texto ou de um elemento em relação a seu contêiner.",
       exemplo: "vertical-align: middle;"
-    },
-    {
-      titulo: "letter-spacing",
-      descricao: "Propriedade CSS usada para definir o espaçamento entre letras.",
-      exemplo: "letter-spacing: 0.5px;"
     },
     {
       titulo: "direction",
@@ -1545,16 +1460,6 @@ let dados = [
       titulo: "mix-blend-mode",
       descricao: "Propriedade CSS usada para definir como um elemento deve ser misturado com o conteúdo abaixo.",
       exemplo: "mix-blend-mode: multiply;",
-    },
-    {
-      titulo: "background-blend-mode",
-      descricao: "Propriedade CSS usada para definir como as imagens de fundo devem ser misturadas com a cor de fundo.",
-      exemplo: "background-blend-mode: overlay;",
-    },
-    {
-      titulo: "clip-path",
-      descricao: "Propriedade CSS usada para definir uma forma para recortar um elemento.",
-      exemplo: "clip-path: circle(50%);"
     },
     {
       titulo: "mask",
@@ -1746,9 +1651,7 @@ let dados = [
     { titulo: 'border', descricao: 'Define as bordas de um elemento.', exemplo: 'border: 1px solid #000;' },
     { titulo: 'box-shadow', descricao: 'Define uma sombra ao redor de um elemento.', exemplo: 'box-shadow: 2px 2px 5px #888;' },
     { titulo: 'color', descricao: 'Define a cor do texto.', exemplo: 'color: #333;' },
-    { titulo: 'display', descricao: 'Define o comportamento de exibição de um elemento.', exemplo: 'display: flex;' },
     { titulo: 'flex', descricao: 'Define o crescimento e encolhimento de um item flexível.', exemplo: 'flex: 1;' },
-    { titulo: 'font-family', descricao: 'Define a fonte do texto.', exemplo: 'font-family: Arial, sans-serif;' },
     { titulo: 'font-size', descricao: 'Define o tamanho da fonte.', exemplo: 'font-size: 16px;' },
     { titulo: 'font-weight', descricao: 'Define o peso da fonte.', exemplo: 'font-weight: bold;' },
     { titulo: 'height', descricao: 'Define a altura de um elemento.', exemplo: 'height: 100px;' },
@@ -1785,13 +1688,11 @@ let dados = [
     { titulo: 'details', descricao: 'Define um controle para mostrar/ocultar informações adicionais.', exemplo: '<details><summary>Mais informações</summary><p>Conteúdo adicional.</p></details>' },
     { titulo: 'dfn', descricao: 'Define um termo que está sendo definido.', exemplo: '<p><dfn>Termo</dfn> é um conceito.</p>' },
     { titulo: 'dialog', descricao: 'Define uma caixa de diálogo.', exemplo: '<dialog open>Caixa de diálogo</dialog>' },
-    { titulo: 'div', descricao: 'Define uma divisão ou seção no documento.', exemplo: '<div><p>Conteúdo dentro da div.</p></div>' },
     { titulo: 'dl', descricao: 'Define uma lista de definição.', exemplo: '<dl><dt>Termo</dt><dd>Definição</dd></dl>' },
     { titulo: 'dt', descricao: 'Define um termo na lista de definição.', exemplo: '<dl><dt>Termo</dt><dd>Definição</dd></dl>' },
     { titulo: 'em', descricao: 'Define texto em itálico para ênfase.', exemplo: '<p><em>Texto em itálico</em></p>' },
     { titulo: 'embed', descricao: 'Insere conteúdo interativo, como vídeos ou gráficos.', exemplo: '<embed src="video.mp4" type="video/mp4">' },
     { titulo: 'fieldset', descricao: 'Define um grupo de controles relacionados.', exemplo: '<fieldset><legend>Informações pessoais</legend><input type="text"></fieldset>' },
-    { titulo: 'figcaption', descricao: 'Define uma legenda para um elemento.', exemplo: '<figure><img src="imagem.jpg" alt="Imagem"><figcaption>Legenda da imagem</figcaption></figure>' },
     { titulo: 'figure', descricao: 'Define um conteúdo independente.', exemplo: '<figure><img src="imagem.jpg" alt="Imagem"><figcaption>Legenda</figcaption></figure>' },
     { titulo: 'footer', descricao: 'Define o rodapé de um documento ou seção.', exemplo: '<footer><p>Rodapé do documento.</p></footer>' },
     { titulo: 'form', descricao: 'Define um formulário para entrada de dados.', exemplo: '<form action="/submit"><input type="text"><input type="submit"></form>' },
@@ -1817,7 +1718,6 @@ let dados = [
     { titulo: 'main', descricao: 'Define o conteúdo principal de um documento.', exemplo: '<main><h1>Conteúdo Principal</h1></main>' },
     { titulo: 'map', descricao: 'Define um mapa de imagem.', exemplo: '<map name="imagemmap"><area shape="rect" coords="34,44,270,350" href="link.html"></map>' },
     { titulo: 'mark', descricao: 'Define texto destacado.', exemplo: '<p>Texto <mark>destacado</mark>.</p>' },
-    { titulo: 'meta', descricao: 'Define metadados sobre o documento.', exemplo: '<meta charset="UTF-8">' },
     { titulo: 'meter', descricao: 'Define uma medição dentro de um intervalo conhecido.', exemplo: '<meter value="0.6" min="0" max="1">60%</meter>' },
     { titulo: 'nav', descricao: 'Define uma seção de navegação.', exemplo: '<nav><ul><li><a href="#">Home</a></li><li><a href="#">Sobre</a></li></ul></nav>' },
     { titulo: 'noscript', descricao: 'Define o conteúdo a ser exibido se o script não for suportado.', exemplo: '<noscript><p>Seu navegador não suporta scripts.</p></noscript>' },
@@ -1837,7 +1737,6 @@ let dados = [
     { titulo: 's', descricao: 'Define texto que foi removido.', exemplo: '<p>Texto <s>removido</s>.</p>' },
     { titulo: 'samp', descricao: 'Define uma amostra de saída de computador.', exemplo: '<samp>Saída do programa</samp>' },
     { titulo: 'script', descricao: 'Define um script.', exemplo: '<script src="script.js"></script>' },
-    { titulo: 'section', descricao: 'Define uma seção no documento.', exemplo: '<section><h2>Seção</h2><p>Conteúdo.</p></section>' },
     { titulo: 'select', descricao: 'Define um menu suspenso.', exemplo: '<select><option>Opção 1</option></select>' },
     { titulo: 'small', descricao: 'Define texto pequeno.', exemplo: '<p>Texto <small>pequeno</small></p>' },
     { titulo: 'source', descricao: 'Define múltiplas fontes de mídia.', exemplo: '<video controls><source src="video.mp4" type="video/mp4"><source src="video.ogg" type="video/ogg"></video>' },
@@ -1848,7 +1747,6 @@ let dados = [
     { titulo: 'summary', descricao: 'Define um resumo para o elemento <details>.', exemplo: '<details><summary>Resumo</summary><p>Detalhes.</p></details>' },
     { titulo: 'sup', descricao: 'Define texto em sobrescrito.', exemplo: '<p>E=mc<sup>2</sup></p>' },
     { titulo: 'table', descricao: 'Define uma tabela.', exemplo: '<table><tr><td>Celula</td></tr></table>' },
-    { titulo: 'tbody', descricao: 'Define um corpo de tabela.', exemplo: '<table><tbody><tr><td>Celula</td></tr></tbody></table>' },
     { titulo: 'td', descricao: 'Define uma célula de dados em uma tabela.', exemplo: '<table><tr><td>Dados</td></tr></table>' },
     { titulo: 'template', descricao: 'Define um conteúdo que pode ser reutilizado.', exemplo: '<template><p>Conteúdo</p></template>' },
     { titulo: 'textarea', descricao: 'Define uma área de texto multi-linha.', exemplo: '<textarea>Texto</textarea>' },
@@ -1864,421 +1762,698 @@ let dados = [
     { titulo: 'video', descricao: 'Define um vídeo.', exemplo: '<video src="video.mp4" controls></video>' },
     { titulo: 'wbr', descricao: 'Sugere onde uma quebra de linha pode ocorrer.', exemplo: '<p>Quebra sugerida: <wbr>teste</p>' },
     { titulo: 'legend', descricao: 'Define um título para um elemento.', exemplo: '<fieldset><legend>Informações pessoais</legend><input type="text"></fieldset>',},
-  {
-    titulo: "animation",
-    descricao: "Propriedade CSS usada para aplicar animações em elementos.",
-    exemplo: "animation: slide 3s infinite;"
+    {
+      titulo: "animation",
+      descricao: "Propriedade CSS usada para aplicar animações em elementos.",
+      exemplo: "animation: slide 3s infinite;"
+    },
+    {
+      titulo: "animation-delay",
+      descricao: "Propriedade CSS usada para definir o atraso antes do início de uma animação.",
+      exemplo: "animation-delay: 2s;"
+    },
+    {
+      titulo: "animation-direction",
+      descricao: "Propriedade CSS usada para definir a direção da animação.",
+      exemplo: "animation-direction: alternate;"
+    },
+    {
+      titulo: "animation-duration",
+      descricao: "Propriedade CSS usada para definir a duração da animação.",
+      exemplo: "animation-duration: 4s;"
+    },
+    {
+      titulo: "animation-fill-mode",
+      descricao: "Propriedade CSS usada para definir o estado de uma animação antes e depois de sua execução.",
+      exemplo: "animation-fill-mode: forwards;"
+    },
+    {
+      titulo: "animation-iteration-count",
+      descricao: "Propriedade CSS usada para definir o número de vezes que uma animação deve ser repetida.",
+      exemplo: "animation-iteration-count: infinite;"
+    },
+    {
+      titulo: "animation-name",
+      descricao: "Propriedade CSS usada para definir o nome da animação a ser aplicada ao elemento.",
+      exemplo: "animation-name: fadeIn;"
+    },
+    {
+      titulo: "animation-play-state",
+      descricao: "Propriedade CSS usada para definir se a animação está em execução ou pausada.",
+      exemplo: "animation-play-state: paused;"
+    },
+    {
+      titulo: "backface-visibility",
+      descricao: "Propriedade CSS usada para definir se a parte de trás de um elemento 3D está visível quando virada.",
+      exemplo: "backface-visibility: hidden;"
+    },
+    {
+      titulo: "background-attachment",
+      descricao: "Propriedade CSS usada para definir se uma imagem de fundo permanece fixa ou se rola com a página.",
+      exemplo: "background-attachment: fixed;"
+    },
+    {
+      titulo: "background-blend-mode",
+      descricao: "Propriedade CSS usada para definir o modo de mistura entre a cor de fundo e a imagem de fundo.",
+      exemplo: "background-blend-mode: multiply;"
+    },
+    {
+      titulo: "background-origin",
+      descricao: "Propriedade CSS usada para definir a posição de origem da imagem de fundo.",
+      exemplo: "background-origin: border-box;"
+    },
+    {
+      titulo: "border-image",
+      descricao: "Propriedade CSS usada para definir uma imagem como borda de um elemento.",
+      exemplo: "border-image: url('border.png') 30 round;"
+    },
+    {
+      titulo: "border-image-slice",
+      descricao: "Propriedade CSS usada para definir a área da imagem de borda a ser usada.",
+      exemplo: "border-image-slice: 10%;"
+    },
+    {
+      titulo: "border-top-left-radius",
+      descricao: "Propriedade CSS usada para definir o raio da borda superior esquerda de um elemento.",
+      exemplo: "border-top-left-radius: 5px;"
+    },
+    {
+      titulo: "border-top-right-radius",
+      descricao: "Propriedade CSS usada para definir o raio da borda superior direita de um elemento.",
+      exemplo: "border-top-right-radius: 5px;"
+    },
+    {
+      titulo: "border-bottom-left-radius",
+      descricao: "Propriedade CSS usada para definir o raio da borda inferior esquerda de um elemento.",
+      exemplo: "border-bottom-left-radius: 10px;"
+    },
+    {
+      titulo: "border-bottom-right-radius",
+      descricao: "Propriedade CSS usada para definir o raio da borda inferior direita de um elemento.",
+      exemplo: "border-bottom-right-radius: 10px;"
+    },
+    {
+      titulo: "box-decoration-break",
+      descricao: "Propriedade CSS usada para definir como as bordas de elementos em bloco devem se comportar durante a quebra.",
+      exemplo: "box-decoration-break: clone;"
+    },
+    {
+      titulo: "box-reflect",
+      descricao: "Propriedade CSS usada para definir um reflexo para um elemento.",
+      exemplo: "box-reflect: below 5px;"
+    },
+    {
+      titulo: "caret-color",
+      descricao: "Propriedade CSS usada para definir a cor do cursor de texto em elementos de entrada.",
+      exemplo: "caret-color: red;"
+    },
+    {
+      titulo: "clip",
+      descricao: "Propriedade CSS usada para definir a área visível de um elemento posicionado.",
+      exemplo: "clip: rect(0, 0, 50px, 50px);"
+    },
+    {
+      titulo: "column-count",
+      descricao: "Propriedade CSS usada para definir o número de colunas em um layout de múltiplas colunas.",
+      exemplo: "column-count: 3;"
+    },
+    {
+      titulo: "column-gap",
+      descricao: "Propriedade CSS usada para definir o espaço entre colunas em um layout de múltiplas colunas.",
+      exemplo: "column-gap: 20px;"
+    },
+    {
+      titulo: "column-rule",
+      descricao: "Propriedade CSS usada para definir a linha entre colunas em um layout de múltiplas colunas.",
+      exemplo: "column-rule: 1px solid #000;"
+    },
+    {
+      titulo: "column-span",
+      descricao: "Propriedade CSS usada para definir se um elemento deve se estender por todas as colunas em um layout de múltiplas colunas.",
+      exemplo: "column-span: all;"
+    },
+    {
+      titulo: "column-width",
+      descricao: "Propriedade CSS usada para definir a largura ideal de uma coluna em um layout de múltiplas colunas.",
+      exemplo: "column-width: 200px;"
+    },
+    {
+      titulo: "content",
+      descricao: "Propriedade CSS usada para gerar conteúdo a partir do CSS, geralmente usada com o pseudo-elemento ::before ou ::after.",
+      exemplo: "content: 'Texto gerado';"
+    },
+    {
+      titulo: "counter-increment",
+      descricao: "Propriedade CSS usada para incrementar o valor de um contador CSS.",
+      exemplo: "counter-increment: section 1;"
+    },
+    {
+      titulo: "counter-reset",
+      descricao: "Propriedade CSS usada para redefinir o valor de um contador CSS.",
+      exemplo: "counter-reset: section;"
+    },
+    {
+      titulo: "cursor",
+      descricao: "Propriedade CSS usada para definir o tipo de cursor que deve ser exibido ao passar o mouse sobre um elemento.",
+      exemplo: "cursor: pointer;"
+    },
+    {
+      titulo: "filter",
+      descricao: "Propriedade CSS usada para aplicar efeitos gráficos como blur ou saturação a elementos.",
+      exemplo: "filter: blur(5px);"
+    },
+    {
+      titulo: "flex-wrap",
+      descricao: "Propriedade CSS usada para definir se os itens dentro de um contêiner flexível devem ou não quebrar a linha.",
+      exemplo: "flex-wrap: wrap;"
+    },
+    {
+      titulo: "font-variant",
+      descricao: "Propriedade CSS usada para definir variações de fontes, como pequenas maiúsculas.",
+      exemplo: "font-variant: small-caps;"
+    },
+    {
+      titulo: "grid-auto-columns",
+      descricao: "Propriedade CSS usada para definir o tamanho das colunas criadas automaticamente em um contêiner de grade.",
+      exemplo: "grid-auto-columns: minmax(100px, auto);"
+    },
+    {
+      titulo: "grid-auto-flow",
+      descricao: "Propriedade CSS usada para controlar o fluxo automático de elementos dentro de um contêiner de grade.",
+      exemplo: "grid-auto-flow: dense;"
+    },
+    {
+      titulo: "grid-auto-rows",
+      descricao: "Propriedade CSS usada para definir o tamanho das linhas criadas automaticamente em um contêiner de grade.",
+      exemplo: "grid-auto-rows: minmax(100px, auto);"
+    },
+    {
+      titulo: "grid-template-areas",
+      descricao: "Propriedade CSS usada para definir as áreas de um contêiner de grade por nome.",
+      exemplo: "grid-template-areas: 'header header' 'nav main' 'footer footer';"
+    },
+    {
+      titulo: "image-rendering",
+      descricao: "Propriedade CSS usada para definir o método de renderização de imagens.",
+      exemplo: "image-rendering: pixelated;"
+    },
+    {
+      titulo: "isolation",
+      descricao: "Propriedade CSS usada para definir se um elemento deve criar um novo contexto de empilhamento.",
+      exemplo: "isolation: isolate;"
+    },
+    {
+      titulo: "line-break",
+      descricao: "Propriedade CSS usada para definir como a quebra de linha deve ocorrer em textos de idiomas asiáticos.",
+      exemplo: "line-break: strict;"
+    },
+    {
+      titulo: "list-style-position",
+      descricao: "Propriedade CSS usada para definir a posição do marcador de lista.",
+      exemplo: "list-style-position: inside;"
+    },
+    {
+      titulo: "margin-block",
+      descricao: "Propriedade CSS que define a margem entre o início e o fim de um bloco.",
+      exemplo: "margin-block: 20px;"
+    },
+    {
+      titulo: "margin-inline",
+      descricao: "Propriedade CSS que define a margem entre o início e o fim de um elemento em linha.",
+      exemplo: "margin-inline: 15px;"
+    },
+    {
+      titulo: "mix-blend-mode",
+      descricao: "Propriedade CSS usada para definir como o conteúdo de um elemento deve se misturar com o conteúdo subjacente.",
+      exemplo: "mix-blend-mode: multiply;"
+    },
+    {
+      titulo: "object-fit",
+      descricao: "Propriedade CSS usada para definir como o conteúdo de substituição de um elemento (como uma imagem) deve ser redimensionado para caber em seu contêiner.",
+      exemplo: "object-fit: cover;"
+    },
+    {
+      titulo: "object-position",
+      descricao: "Propriedade CSS usada para definir a posição do conteúdo de substituição dentro de um contêiner.",
+      exemplo: "object-position: center;"
+    },
+    {
+      titulo: "opacity",
+      descricao: "Propriedade CSS usada para definir o nível de opacidade de um elemento.",
+      exemplo: "opacity: 0.8;"
+    },
+    {
+      titulo: "order",
+      descricao: "Propriedade CSS usada para definir a ordem de um item em um contêiner flexível.",
+      exemplo: "order: 2;"
+    },
+    {
+      titulo: "overflow-x",
+      descricao: "Propriedade CSS usada para definir o comportamento de overflow no eixo horizontal.",
+      exemplo: "overflow-x: hidden;"
+    },
+    {
+      titulo: "overflow-y",
+      descricao: "Propriedade CSS usada para definir o comportamento de overflow no eixo vertical.",
+      exemplo: "overflow-y: scroll;"
+    },
+    {
+      titulo: "perspective",
+      descricao: "Propriedade CSS usada para definir a distância entre o plano de visualização e o elemento 3D.",
+      exemplo: "perspective: 500px;"
+    },
+    {
+      titulo: "perspective-origin",
+      descricao: "Propriedade CSS usada para definir a origem da perspectiva para um elemento 3D.",
+      exemplo: "perspective-origin: center;"
+    },
+    {
+      titulo: "pointer-events",
+      descricao: "Propriedade CSS usada para definir se um elemento pode ser o alvo de eventos de ponteiro.",
+      exemplo: "pointer-events: none;"
+    },
+    {
+      titulo: "quotes",
+      descricao: "Propriedade CSS usada para definir o estilo de aspas de citação para pseudo-elementos ::before e ::after.",
+      exemplo: "quotes: '“' '”';"
+    },
+    {
+      titulo: "resize",
+      descricao: "Propriedade CSS usada para definir se um elemento pode ser redimensionado pelo usuário.",
+      exemplo: "resize: both;"
+    },
+    {
+      titulo: "scroll-behavior",
+      descricao: "Propriedade CSS usada para definir o comportamento de rolagem em um contêiner com overflow.",
+      exemplo: "scroll-behavior: smooth;"
+    },
+    {
+      titulo: "scroll-margin",
+      descricao: "Propriedade CSS usada para definir a margem de rolagem em um elemento.",
+      exemplo: "scroll-margin: 10px;"
+    },
+    {
+      titulo: "scroll-padding",
+      descricao: "Propriedade CSS usada para definir o preenchimento de rolagem em um elemento.",
+      exemplo: "scroll-padding: 15px;"
+    },
+    {
+      titulo: "scroll-snap-align",
+      descricao: "Propriedade CSS usada para definir o alinhamento de encaixe de rolagem para elementos dentro de um contêiner de rolagem.",
+      exemplo: "scroll-snap-align: center;"
+    },
+    {
+      titulo: "scroll-snap-stop",
+      descricao: "Propriedade CSS usada para definir se a rolagem deve parar no ponto de encaixe.",
+      exemplo: "scroll-snap-stop: always;"
+    },
+    {
+      titulo: "scrollbar-color",
+      descricao: "Propriedade CSS usada para definir a cor da barra de rolagem em um contêiner.",
+      exemplo: "scrollbar-color: #6c757d #f8f9fa;"
+    },
+    {
+      titulo: "scrollbar-width",
+      descricao: "Propriedade CSS usada para definir a largura da barra de rolagem em um contêiner.",
+      exemplo: "scrollbar-width: thin;"
+    },
+    {
+      titulo: "shape-outside",
+      descricao: "Propriedade CSS usada para definir a forma ao redor da qual o texto deve fluir.",
+      exemplo: "shape-outside: circle(50%);"
+    },
+    {
+      titulo: "tab-size",
+      descricao: "Propriedade CSS usada para definir o número de espaços de tabulação em elementos de texto.",
+      exemplo: "tab-size: 4;"
+    },
+    {
+      titulo: "table-layout",
+      descricao: "Propriedade CSS usada para definir o algoritmo de layout de tabela.",
+      exemplo: "table-layout: fixed;"
+    },
+    {
+      titulo: "text-align-last",
+      descricao: "Propriedade CSS usada para definir o alinhamento da última linha de um texto.",
+      exemplo: "text-align-last: justify;"
+    },
+    {
+      titulo: "text-combine-upright",
+      descricao: "Propriedade CSS usada para combinar caracteres na direção vertical para idiomas asiáticos.",
+      exemplo: "text-combine-upright: all;"
+    },
+    {
+      titulo: "text-justify",
+      descricao: "Propriedade CSS usada para definir o método de justificação do texto.",
+      exemplo: "text-justify: inter-word;"
+    },
+    {
+      titulo: "text-orientation",
+      descricao: "Propriedade CSS usada para definir a orientação do texto em elementos verticais.",
+      exemplo: "text-orientation: upright;"
+    },
+    {
+      titulo: "touch-action",
+      descricao: "Propriedade CSS usada para definir como o navegador deve lidar com gestos de toque.",
+      exemplo: "touch-action: manipulation;"
+    },
+    {
+      titulo: "transform",
+      descricao: "Propriedade CSS usada para aplicar transformações 2D ou 3D a elementos.",
+      exemplo: "transform: rotate(45deg);"
+    },
+    {
+      titulo: "transform-style",
+      descricao: "Propriedade CSS usada para definir se os filhos de um elemento 3D devem manter sua posição 3D.",
+      exemplo: "transform-style: preserve-3d;"
+    },
+    {
+      titulo: "transition-delay",
+      descricao: "Propriedade CSS usada para definir o tempo de espera antes do início de uma transição.",
+      exemplo: "transition-delay: 1s;"
+    },
+    {
+      titulo: "transition-duration",
+      descricao: "Propriedade CSS usada para definir a duração de uma transição.",
+      exemplo: "transition-duration: 0.5s;"
+    },
+    {
+      titulo: "transition-property",
+      descricao: "Propriedade CSS usada para definir as propriedades que devem ser animadas durante uma transição.",
+      exemplo: "transition-property: opacity, transform;"
+    },
+    { titulo: 'figcaption', descricao: 'Define uma legenda para um elemento.', exemplo: '<figure><img src="imagem.jpg" alt="Imagem"><figcaption>Legenda da imagem</figcaption></figure>' },
+    {
+      titulo: "display: block",
+      descricao: "Faz com que o elemento seja exibido como um bloco, ocupando toda a largura disponível e quebrando a linha antes e depois dele.",
+      exemplo: "display: block;"
   },
   {
-    titulo: "animation-delay",
-    descricao: "Propriedade CSS usada para definir o atraso antes do início de uma animação.",
-    exemplo: "animation-delay: 2s;"
+      titulo: "display: inline",
+      descricao: "Faz com que o elemento seja exibido na mesma linha, respeitando a largura de seu conteúdo, sem quebrar a linha antes ou depois dele.",
+      exemplo: "display: inline;"
   },
   {
-    titulo: "animation-direction",
-    descricao: "Propriedade CSS usada para definir a direção da animação.",
-    exemplo: "animation-direction: alternate;"
+      titulo: "display: inline-block",
+      descricao: "Combina as características de 'inline' e 'block', permitindo definir largura e altura, mas ainda alinhando com outros elementos na mesma linha.",
+      exemplo: "display: inline-block;"
   },
   {
-    titulo: "animation-duration",
-    descricao: "Propriedade CSS usada para definir a duração da animação.",
-    exemplo: "animation-duration: 4s;"
+      titulo: "display: none",
+      descricao: "Remove o elemento do fluxo de renderização, fazendo com que ele não ocupe espaço na página.",
+      exemplo: "display: none;"
   },
   {
-    titulo: "animation-fill-mode",
-    descricao: "Propriedade CSS usada para definir o estado de uma animação antes e depois de sua execução.",
-    exemplo: "animation-fill-mode: forwards;"
+      titulo: "display: flex",
+      descricao: "Define um contêiner flexível, permitindo organizar elementos filhos com layouts mais complexos de forma simplificada.",
+      exemplo: "display: flex;"
   },
   {
-    titulo: "animation-iteration-count",
-    descricao: "Propriedade CSS usada para definir o número de vezes que uma animação deve ser repetida.",
-    exemplo: "animation-iteration-count: infinite;"
+      titulo: "display: inline-flex",
+      descricao: "Funciona como 'flex', mas o contêiner é exibido na mesma linha, como um elemento 'inline'.",
+      exemplo: "display: inline-flex;"
   },
   {
-    titulo: "animation-name",
-    descricao: "Propriedade CSS usada para definir o nome da animação a ser aplicada ao elemento.",
-    exemplo: "animation-name: fadeIn;"
+      titulo: "display: grid",
+      descricao: "Define um contêiner de grade para organizar elementos em linhas e colunas, permitindo layouts mais estruturados.",
+      exemplo: "display: grid;"
   },
   {
-    titulo: "animation-play-state",
-    descricao: "Propriedade CSS usada para definir se a animação está em execução ou pausada.",
-    exemplo: "animation-play-state: paused;"
+      titulo: "display: inline-grid",
+      descricao: "Funciona como 'grid', mas o contêiner é exibido na mesma linha, como um elemento 'inline'.",
+      exemplo: "display: inline-grid;"
   },
   {
-    titulo: "animation-timing-function",
-    descricao: "Propriedade CSS usada para definir a curva de aceleração da animação.",
+      titulo: "display: table",
+      descricao: "Faz com que o elemento se comporte como uma tabela, incluindo linhas e células.",
+      exemplo: "display: table;"
+  },
+  {
+      titulo: "display: table-row",
+      descricao: "Faz com que o elemento se comporte como uma linha de tabela.",
+      exemplo: "display: table-row;"
+  },
+  {
+      titulo: "display: table-cell",
+      descricao: "Faz com que o elemento se comporte como uma célula de tabela.",
+      exemplo: "display: table-cell;"
+  },
+  {
+      titulo: "display: table-column",
+      descricao: "Representa uma coluna em uma tabela. Geralmente é usado para estilização.",
+      exemplo: "display: table-column;"
+  },
+  {
+      titulo: "display: table-column-group",
+      descricao: "Agrupa uma ou mais colunas em uma tabela.",
+      exemplo: "display: table-column-group;"
+  },
+  {
+      titulo: "display: table-footer-group",
+      descricao: "Define um grupo de rodapé para uma tabela.",
+      exemplo: "display: table-footer-group;"
+  },
+  {
+      titulo: "display: table-header-group",
+      descricao: "Define um grupo de cabeçalho para uma tabela.",
+      exemplo: "display: table-header-group;"
+  },
+  {
+      titulo: "display: table-row-group",
+      descricao: "Agrupa uma ou mais linhas em uma tabela.",
+      exemplo: "display: table-row-group;"
+  },
+  {
+      titulo: "display: list-item",
+      descricao: "Faz com que o elemento se comporte como um item de lista, incluindo um marcador de lista, se aplicável.",
+      exemplo: "display: list-item;"
+  },
+  {
+      titulo: "display: run-in",
+      descricao: "Faz com que o elemento se comporte como um bloco ou inline, dependendo do contexto ao redor.",
+      exemplo: "display: run-in;"
+  },
+  {
+      titulo: "display: contents",
+      descricao: "Faz com que o elemento seja ignorado, mas seus filhos ainda sejam renderizados.",
+      exemplo: "display: contents;"
+  },
+  {
+      titulo: "display: initial",
+      descricao: "Define o valor padrão da propriedade, conforme especificado na especificação do CSS.",
+      exemplo: "display: initial;"
+  },
+  {
+      titulo: "display: inherit",
+      descricao: "Herda o valor da propriedade 'display' do elemento pai.",
+      exemplo: "display: inherit;"
+  },
+  {
+      titulo: "display: revert",
+      descricao: "Reverte a propriedade para o valor definido pelo estilo de usuário ou estilo do navegador.",
+      exemplo: "display: revert;"
+  },
+  {
+      titulo: "display: unset",
+      descricao: "Remove qualquer valor definido para a propriedade, resultando no valor inicial ou herdado.",
+      exemplo: "display: unset;"
+  },
+  {
+    titulo: "animation-timing-function: ease",
+    descricao: "Cria uma animação com uma transição suave de início, meio e fim.",
+    exemplo: "animation-timing-function: ease;"
+  },
+  {
+    titulo: "animation-timing-function: linear",
+    descricao: "A animação tem uma velocidade constante do início ao fim.",
+    exemplo: "animation-timing-function: linear;"
+  },
+  {
+    titulo: "animation-timing-function: ease-in",
+    descricao: "A animação começa devagar e acelera no final.",
+    exemplo: "animation-timing-function: ease-in;"
+  },
+  {
+    titulo: "animation-timing-function: ease-out",
+    descricao: "A animação começa rápido e desacelera no final.",
+    exemplo: "animation-timing-function: ease-out;"
+  },
+  {
+    titulo: "animation-timing-function: ease-in-out",
+    descricao: "A animação começa e termina devagar, acelerando no meio.",
     exemplo: "animation-timing-function: ease-in-out;"
   },
   {
-    titulo: "backface-visibility",
-    descricao: "Propriedade CSS usada para definir se a parte de trás de um elemento 3D está visível quando virada.",
-    exemplo: "backface-visibility: hidden;"
+    titulo: "animation-timing-function: step-start",
+    descricao: "A animação pula imediatamente para o estado final sem uma transição suave.",
+    exemplo: "animation-timing-function: step-start;"
   },
   {
-    titulo: "background-attachment",
-    descricao: "Propriedade CSS usada para definir se uma imagem de fundo permanece fixa ou se rola com a página.",
-    exemplo: "background-attachment: fixed;"
+    titulo: "animation-timing-function: step-end",
+    descricao: "A animação permanece no estado inicial até o final, quando pula para o estado final.",
+    exemplo: "animation-timing-function: step-end;"
   },
   {
-    titulo: "background-blend-mode",
-    descricao: "Propriedade CSS usada para definir o modo de mistura entre a cor de fundo e a imagem de fundo.",
-    exemplo: "background-blend-mode: multiply;"
+    titulo: "animation-timing-function: steps",
+    descricao: "Divide a animação em um número específico de etapas distintas.",
+    exemplo: "animation-timing-function: steps(4, end);"
   },
   {
-    titulo: "background-origin",
-    descricao: "Propriedade CSS usada para definir a posição de origem da imagem de fundo.",
-    exemplo: "background-origin: border-box;"
+    titulo: "animation-timing-function: cubic-bezier",
+    descricao: "Define uma curva personalizada para a animação usando valores de controle.",
+    exemplo: "animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);"
   },
   {
-    titulo: "border-image",
-    descricao: "Propriedade CSS usada para definir uma imagem como borda de um elemento.",
-    exemplo: "border-image: url('border.png') 30 round;"
+    titulo: "transition-timing-function: ease",
+    descricao: "Cria uma transição suave para uma mudança de propriedade CSS.",
+    exemplo: "transition-timing-function: ease;"
   },
   {
-    titulo: "border-image-slice",
-    descricao: "Propriedade CSS usada para definir a área da imagem de borda a ser usada.",
-    exemplo: "border-image-slice: 10%;"
+    titulo: "transition-timing-function: linear",
+    descricao: "A transição tem uma velocidade constante do início ao fim.",
+    exemplo: "transition-timing-function: linear;"
   },
   {
-    titulo: "border-top-left-radius",
-    descricao: "Propriedade CSS usada para definir o raio da borda superior esquerda de um elemento.",
-    exemplo: "border-top-left-radius: 5px;"
+    titulo: "transition-timing-function: ease-in",
+    descricao: "A transição começa devagar e acelera no final.",
+    exemplo: "transition-timing-function: ease-in;"
   },
   {
-    titulo: "border-top-right-radius",
-    descricao: "Propriedade CSS usada para definir o raio da borda superior direita de um elemento.",
-    exemplo: "border-top-right-radius: 5px;"
-  },
-  {
-    titulo: "border-bottom-left-radius",
-    descricao: "Propriedade CSS usada para definir o raio da borda inferior esquerda de um elemento.",
-    exemplo: "border-bottom-left-radius: 10px;"
-  },
-  {
-    titulo: "border-bottom-right-radius",
-    descricao: "Propriedade CSS usada para definir o raio da borda inferior direita de um elemento.",
-    exemplo: "border-bottom-right-radius: 10px;"
-  },
-  {
-    titulo: "box-decoration-break",
-    descricao: "Propriedade CSS usada para definir como as bordas de elementos em bloco devem se comportar durante a quebra.",
-    exemplo: "box-decoration-break: clone;"
-  },
-  {
-    titulo: "box-reflect",
-    descricao: "Propriedade CSS usada para definir um reflexo para um elemento.",
-    exemplo: "box-reflect: below 5px;"
-  },
-  {
-    titulo: "caret-color",
-    descricao: "Propriedade CSS usada para definir a cor do cursor de texto em elementos de entrada.",
-    exemplo: "caret-color: red;"
-  },
-  {
-    titulo: "clip",
-    descricao: "Propriedade CSS usada para definir a área visível de um elemento posicionado.",
-    exemplo: "clip: rect(0, 0, 50px, 50px);"
-  },
-  {
-    titulo: "column-count",
-    descricao: "Propriedade CSS usada para definir o número de colunas em um layout de múltiplas colunas.",
-    exemplo: "column-count: 3;"
-  },
-  {
-    titulo: "column-gap",
-    descricao: "Propriedade CSS usada para definir o espaço entre colunas em um layout de múltiplas colunas.",
-    exemplo: "column-gap: 20px;"
-  },
-  {
-    titulo: "column-rule",
-    descricao: "Propriedade CSS usada para definir a linha entre colunas em um layout de múltiplas colunas.",
-    exemplo: "column-rule: 1px solid #000;"
-  },
-  {
-    titulo: "column-span",
-    descricao: "Propriedade CSS usada para definir se um elemento deve se estender por todas as colunas em um layout de múltiplas colunas.",
-    exemplo: "column-span: all;"
-  },
-  {
-    titulo: "column-width",
-    descricao: "Propriedade CSS usada para definir a largura ideal de uma coluna em um layout de múltiplas colunas.",
-    exemplo: "column-width: 200px;"
-  },
-  {
-    titulo: "content",
-    descricao: "Propriedade CSS usada para gerar conteúdo a partir do CSS, geralmente usada com o pseudo-elemento ::before ou ::after.",
-    exemplo: "content: 'Texto gerado';"
-  },
-  {
-    titulo: "counter-increment",
-    descricao: "Propriedade CSS usada para incrementar o valor de um contador CSS.",
-    exemplo: "counter-increment: section 1;"
-  },
-  {
-    titulo: "counter-reset",
-    descricao: "Propriedade CSS usada para redefinir o valor de um contador CSS.",
-    exemplo: "counter-reset: section;"
-  },
-  {
-    titulo: "cursor",
-    descricao: "Propriedade CSS usada para definir o tipo de cursor que deve ser exibido ao passar o mouse sobre um elemento.",
-    exemplo: "cursor: pointer;"
-  },
-  {
-    titulo: "display: grid",
-    descricao: "Define um elemento como um contêiner de grade CSS.",
-    exemplo: "display: grid;"
-  },
-  {
-    titulo: "display: flex",
-    descricao: "Define um elemento como um contêiner flexível.",
-    exemplo: "display: flex;"
-  },
-  {
-    titulo: "filter",
-    descricao: "Propriedade CSS usada para aplicar efeitos gráficos como blur ou saturação a elementos.",
-    exemplo: "filter: blur(5px);"
-  },
-  {
-    titulo: "flex-wrap",
-    descricao: "Propriedade CSS usada para definir se os itens dentro de um contêiner flexível devem ou não quebrar a linha.",
-    exemplo: "flex-wrap: wrap;"
-  },
-  {
-    titulo: "font-variant",
-    descricao: "Propriedade CSS usada para definir variações de fontes, como pequenas maiúsculas.",
-    exemplo: "font-variant: small-caps;"
-  },
-  {
-    titulo: "grid-auto-columns",
-    descricao: "Propriedade CSS usada para definir o tamanho das colunas criadas automaticamente em um contêiner de grade.",
-    exemplo: "grid-auto-columns: minmax(100px, auto);"
-  },
-  {
-    titulo: "grid-auto-flow",
-    descricao: "Propriedade CSS usada para controlar o fluxo automático de elementos dentro de um contêiner de grade.",
-    exemplo: "grid-auto-flow: dense;"
-  },
-  {
-    titulo: "grid-auto-rows",
-    descricao: "Propriedade CSS usada para definir o tamanho das linhas criadas automaticamente em um contêiner de grade.",
-    exemplo: "grid-auto-rows: minmax(100px, auto);"
-  },
-  {
-    titulo: "grid-template-areas",
-    descricao: "Propriedade CSS usada para definir as áreas de um contêiner de grade por nome.",
-    exemplo: "grid-template-areas: 'header header' 'nav main' 'footer footer';"
-  },
-  {
-    titulo: "hyphens",
-    descricao: "Propriedade CSS usada para definir como palavras são quebradas ao final de uma linha.",
-    exemplo: "hyphens: auto;"
-  },
-  {
-    titulo: "image-rendering",
-    descricao: "Propriedade CSS usada para definir o método de renderização de imagens.",
-    exemplo: "image-rendering: pixelated;"
-  },
-  {
-    titulo: "isolation",
-    descricao: "Propriedade CSS usada para definir se um elemento deve criar um novo contexto de empilhamento.",
-    exemplo: "isolation: isolate;"
-  },
-  {
-    titulo: "letter-spacing",
-    descricao: "Propriedade CSS usada para definir o espaçamento entre caracteres de um texto.",
-    exemplo: "letter-spacing: 2px;"
-  },
-  {
-    titulo: "line-break",
-    descricao: "Propriedade CSS usada para definir como a quebra de linha deve ocorrer em textos de idiomas asiáticos.",
-    exemplo: "line-break: strict;"
-  },
-  {
-    titulo: "list-style-position",
-    descricao: "Propriedade CSS usada para definir a posição do marcador de lista.",
-    exemplo: "list-style-position: inside;"
-  },
-  {
-    titulo: "margin-block",
-    descricao: "Propriedade CSS que define a margem entre o início e o fim de um bloco.",
-    exemplo: "margin-block: 20px;"
-  },
-  {
-    titulo: "margin-inline",
-    descricao: "Propriedade CSS que define a margem entre o início e o fim de um elemento em linha.",
-    exemplo: "margin-inline: 15px;"
-  },
-  {
-    titulo: "mix-blend-mode",
-    descricao: "Propriedade CSS usada para definir como o conteúdo de um elemento deve se misturar com o conteúdo subjacente.",
-    exemplo: "mix-blend-mode: multiply;"
-  },
-  {
-    titulo: "object-fit",
-    descricao: "Propriedade CSS usada para definir como o conteúdo de substituição de um elemento (como uma imagem) deve ser redimensionado para caber em seu contêiner.",
-    exemplo: "object-fit: cover;"
-  },
-  {
-    titulo: "object-position",
-    descricao: "Propriedade CSS usada para definir a posição do conteúdo de substituição dentro de um contêiner.",
-    exemplo: "object-position: center;"
-  },
-  {
-    titulo: "opacity",
-    descricao: "Propriedade CSS usada para definir o nível de opacidade de um elemento.",
-    exemplo: "opacity: 0.8;"
-  },
-  {
-    titulo: "order",
-    descricao: "Propriedade CSS usada para definir a ordem de um item em um contêiner flexível.",
-    exemplo: "order: 2;"
-  },
-  {
-    titulo: "overflow-x",
-    descricao: "Propriedade CSS usada para definir o comportamento de overflow no eixo horizontal.",
-    exemplo: "overflow-x: hidden;"
-  },
-  {
-    titulo: "overflow-y",
-    descricao: "Propriedade CSS usada para definir o comportamento de overflow no eixo vertical.",
-    exemplo: "overflow-y: scroll;"
-  },
-  {
-    titulo: "perspective",
-    descricao: "Propriedade CSS usada para definir a distância entre o plano de visualização e o elemento 3D.",
-    exemplo: "perspective: 500px;"
-  },
-  {
-    titulo: "perspective-origin",
-    descricao: "Propriedade CSS usada para definir a origem da perspectiva para um elemento 3D.",
-    exemplo: "perspective-origin: center;"
-  },
-  {
-    titulo: "pointer-events",
-    descricao: "Propriedade CSS usada para definir se um elemento pode ser o alvo de eventos de ponteiro.",
-    exemplo: "pointer-events: none;"
-  },
-  {
-    titulo: "quotes",
-    descricao: "Propriedade CSS usada para definir o estilo de aspas de citação para pseudo-elementos ::before e ::after.",
-    exemplo: "quotes: '“' '”';"
-  },
-  {
-    titulo: "resize",
-    descricao: "Propriedade CSS usada para definir se um elemento pode ser redimensionado pelo usuário.",
-    exemplo: "resize: both;"
-  },
-  {
-    titulo: "scroll-behavior",
-    descricao: "Propriedade CSS usada para definir o comportamento de rolagem em um contêiner com overflow.",
-    exemplo: "scroll-behavior: smooth;"
-  },
-  {
-    titulo: "scroll-margin",
-    descricao: "Propriedade CSS usada para definir a margem de rolagem em um elemento.",
-    exemplo: "scroll-margin: 10px;"
-  },
-  {
-    titulo: "scroll-padding",
-    descricao: "Propriedade CSS usada para definir o preenchimento de rolagem em um elemento.",
-    exemplo: "scroll-padding: 15px;"
-  },
-  {
-    titulo: "scroll-snap-align",
-    descricao: "Propriedade CSS usada para definir o alinhamento de encaixe de rolagem para elementos dentro de um contêiner de rolagem.",
-    exemplo: "scroll-snap-align: center;"
-  },
-  {
-    titulo: "scroll-snap-stop",
-    descricao: "Propriedade CSS usada para definir se a rolagem deve parar no ponto de encaixe.",
-    exemplo: "scroll-snap-stop: always;"
-  },
-  {
-    titulo: "scrollbar-color",
-    descricao: "Propriedade CSS usada para definir a cor da barra de rolagem em um contêiner.",
-    exemplo: "scrollbar-color: #6c757d #f8f9fa;"
-  },
-  {
-    titulo: "scrollbar-width",
-    descricao: "Propriedade CSS usada para definir a largura da barra de rolagem em um contêiner.",
-    exemplo: "scrollbar-width: thin;"
-  },
-  {
-    titulo: "shape-outside",
-    descricao: "Propriedade CSS usada para definir a forma ao redor da qual o texto deve fluir.",
-    exemplo: "shape-outside: circle(50%);"
-  },
-  {
-    titulo: "tab-size",
-    descricao: "Propriedade CSS usada para definir o número de espaços de tabulação em elementos de texto.",
-    exemplo: "tab-size: 4;"
-  },
-  {
-    titulo: "table-layout",
-    descricao: "Propriedade CSS usada para definir o algoritmo de layout de tabela.",
-    exemplo: "table-layout: fixed;"
-  },
-  {
-    titulo: "text-align-last",
-    descricao: "Propriedade CSS usada para definir o alinhamento da última linha de um texto.",
-    exemplo: "text-align-last: justify;"
-  },
-  {
-    titulo: "text-combine-upright",
-    descricao: "Propriedade CSS usada para combinar caracteres na direção vertical para idiomas asiáticos.",
-    exemplo: "text-combine-upright: all;"
-  },
-  {
-    titulo: "text-justify",
-    descricao: "Propriedade CSS usada para definir o método de justificação do texto.",
-    exemplo: "text-justify: inter-word;"
-  },
-  {
-    titulo: "text-orientation",
-    descricao: "Propriedade CSS usada para definir a orientação do texto em elementos verticais.",
-    exemplo: "text-orientation: upright;"
-  },
-  {
-    titulo: "touch-action",
-    descricao: "Propriedade CSS usada para definir como o navegador deve lidar com gestos de toque.",
-    exemplo: "touch-action: manipulation;"
-  },
-  {
-    titulo: "transform",
-    descricao: "Propriedade CSS usada para aplicar transformações 2D ou 3D a elementos.",
-    exemplo: "transform: rotate(45deg);"
-  },
-  {
-    titulo: "transform-style",
-    descricao: "Propriedade CSS usada para definir se os filhos de um elemento 3D devem manter sua posição 3D.",
-    exemplo: "transform-style: preserve-3d;"
-  },
-  {
-    titulo: "transition-delay",
-    descricao: "Propriedade CSS usada para definir o tempo de espera antes do início de uma transição.",
-    exemplo: "transition-delay: 1s;"
-  },
-  {
-    titulo: "transition-duration",
-    descricao: "Propriedade CSS usada para definir a duração de uma transição.",
-    exemplo: "transition-duration: 0.5s;"
-  },
-  {
-    titulo: "transition-property",
-    descricao: "Propriedade CSS usada para definir as propriedades que devem ser animadas durante uma transição.",
-    exemplo: "transition-property: opacity, transform;"
-  },
-  {
-    titulo: "transition-timing-function",
-    descricao: "Propriedade CSS usada para definir a curva de aceleração de uma transição.",
+    titulo: "transition-timing-function: ease-out",
+    descricao: "A transição começa rápido e desacelera no final.",
     exemplo: "transition-timing-function: ease-out;"
-  }
+  },
+  {
+    titulo: "transition-timing-function: ease-in-out",
+    descricao: "A transição começa e termina devagar, acelerando no meio.",
+    exemplo: "transition-timing-function: ease-in-out;"
+  },
+  {
+    titulo: "transition-timing-function: step-start",
+    descricao: "A transição pula imediatamente para o estado final sem uma transição suave.",
+    exemplo: "transition-timing-function: step-start;"
+  },
+  {
+    titulo: "transition-timing-function: step-end",
+    descricao: "A transição permanece no estado inicial até o final, quando pula para o estado final.",
+    exemplo: "transition-timing-function: step-end;"
+  },
+  {
+    titulo: "transition-timing-function: steps",
+    descricao: "Divide a transição em um número específico de etapas distintas.",
+    exemplo: "transition-timing-function: steps(4, end);"
+  },
+  {
+    titulo: "transition-timing-function: cubic-bezier",
+    descricao: "Define uma curva personalizada para a transição usando valores de controle.",
+    exemplo: "transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);"
+  }, 
+  {
+    titulo: "var",
+    descricao: "Declara uma variável com escopo global ou de função. Pode ser redeclarada e seu valor pode ser atualizado.",
+    exemplo: "var nome = 'João';"
+  },
+  {
+    titulo: "let",
+    descricao: "Declara uma variável com escopo de bloco. Não pode ser redeclarada no mesmo escopo, mas seu valor pode ser atualizado.",
+    exemplo: "let idade = 25;"
+  },
+  {
+    titulo: "const",
+    descricao: "Declara uma variável com escopo de bloco que não pode ser redeclarada ou atualizada. O valor deve ser atribuído durante a declaração.",
+    exemplo: "const pi = 3.14;"
+  },
+  {
+    titulo: "if",
+    descricao: "Estrutura condicional que executa um bloco de código se uma condição for verdadeira.",
+    exemplo: "if (idade > 18) { console.log('Adulto'); }"
+  },
+  {
+    titulo: "toLowerCase",
+    descricao: "Método que converte todos os caracteres de uma string para minúsculas.",
+    exemplo: "const texto = 'Hello World'.toLowerCase(); // 'hello world'"
+  },
+  {
+    titulo: "replace",
+    descricao: "Método que substitui a primeira ocorrência de um padrão em uma string por uma nova substring.",
+    exemplo: "const novoTexto = 'banana'.replace('a', 'o'); // 'bonana'"
+  },
+  {
+    titulo: "class",
+    descricao: "Palavra-chave usada para definir uma classe em JavaScript, permitindo a criação de objetos com propriedades e métodos.",
+    exemplo: "class Carro { constructor(modelo) { this.modelo = modelo; } }"
+  },
+  {
+    titulo: "includes",
+    descricao: "Método que verifica se um array ou string contém um determinado elemento ou substring e retorna um booleano.",
+    exemplo: "const lista = ['maçã', 'banana', 'laranja']; lista.includes('banana'); // true"
+  },
+  {
+    titulo: "return",
+    descricao: "Palavra-chave usada para sair de uma função e opcionalmente retornar um valor.",
+    exemplo: "function soma(a, b) { return a + b; }"
+  },
+  {
+    titulo: "nomenclatura",
+    descricao: "Sistema ou conjunto de nomes e termos usados para identificar e classificar conceitos, objetos ou entidades em um domínio específico.",
+    exemplo: "A nomenclatura de variáveis deve seguir padrões consistentes para melhorar a legibilidade do código."
+  },
+  {
+    titulo: "if",
+    descricao: "Estrutura condicional que executa um bloco de código se uma condição for verdadeira.",
+    exemplo: "if (idade > 18) { console.log('Adulto'); }"
+  },
+  {
+    titulo: "toLowerCase",
+    descricao: "Método que converte todos os caracteres de uma string para minúsculas.",
+    exemplo: "const texto = 'Hello World'.toLowerCase(); // 'hello world'"
+  },
+  {
+    titulo: "replace",
+    descricao: "Método que substitui a primeira ocorrência de um padrão em uma string por uma nova substring.",
+    exemplo: "const novoTexto = 'banana'.replace('a', 'o'); // 'bonana'"
+  },
+  {
+    titulo: "class",
+    descricao: "Palavra-chave usada para definir uma classe em JavaScript, permitindo a criação de objetos com propriedades e métodos.",
+    exemplo: "class Carro { constructor(modelo) { this.modelo = modelo; } }"
+  },
+  {
+    titulo: "includes",
+    descricao: "Método que verifica se um array ou string contém um determinado elemento ou substring e retorna um booleano.",
+    exemplo: "const lista = ['maçã', 'banana', 'laranja']; lista.includes('banana'); // true"
+  },
+  {
+    titulo: "return",
+    descricao: "Palavra-chave usada para sair de uma função e opcionalmente retornar um valor.",
+    exemplo: "function soma(a, b) { return a + b; }"
+  },
+  {
+    titulo: "Function Declaration",
+    descricao: "Forma de definir uma função no JavaScript, usando a palavra-chave 'function'. A função é criada no momento da declaração.",
+    exemplo: "function soma(a, b) { return a + b; }"
+  },
+  {
+    titulo: "Arrow Function",
+    descricao: "Sintaxe curta para escrever funções no JavaScript, utilizando a sintaxe de 'flecha'.",
+    exemplo: "const soma = (a, b) => a + b;"
+  },
+  {
+    titulo: "Promise",
+    descricao: "Objeto que representa a eventual conclusão (ou falha) de uma operação assíncrona e seu valor resultante.",
+    exemplo: "const promessa = new Promise((resolve, reject) => { resolve('Dados recebidos'); });"
+  },
+  {
+    titulo: "Async/Await",
+    descricao: "Sintaxe para trabalhar com código assíncrono em JavaScript, tornando o código mais legível e fácil de entender.",
+    exemplo: "async function obterDados() { const resposta = await fetch('url'); return resposta.json(); }"
+  },
+  {
+    titulo: "Event Listener",
+    descricao: "Método usado para associar um evento a um elemento HTML, executando uma função quando o evento ocorre.",
+    exemplo: "document.getElementById('botao').addEventListener('click', () => { alert('Botão clicado!'); });"
+  },
+
+  
+
 ]
-
-
-
-
-
-
-
