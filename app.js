@@ -11,18 +11,16 @@ function pesquisar() {
     campoPesquisa = campoPesquisa.toLowerCase();
 
     let resultados = "";
-    
+
     for (let dado of dados) {
         let titulo = dado.titulo.toLowerCase();
-        let descricao = dado.descricao.toLowerCase();
-        let exemplo = dado.exemplo;
 
-        // Verifica se algum dos campos inclui o texto da pesquisa
-        if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa)) { 
+        // Verifica se o título corresponde exatamente ao texto da pesquisa
+        if (titulo === campoPesquisa) { 
             // Escapa o exemplo HTML para exibição segura
-            let exemploEscapado = exemplo.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            let exemploEscapado = dado.exemplo.replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-            // Cria um novo item de resultado
+            // Cria um novo item de resultado com o título, a descrição e o exemplo
             resultados += `
                 <div class="item-resultado">
                     <h2>${dado.titulo}</h2>
@@ -40,3 +38,14 @@ function pesquisar() {
     // Atribui os resultados gerados à seção HTML
     section.innerHTML = resultados;
 }
+
+// Adiciona um ouvinte de eventos ao campo de entrada de texto
+document.getElementById("campo-pesquisa").addEventListener("keydown", function(event) {
+    // Verifica se a tecla pressionada é a tecla Enter (código 13)
+    if (event.key === "Enter") {
+        // Cancela o evento padrão para evitar que o formulário seja enviado
+        event.preventDefault();
+        // Chama a função de pesquisa
+        pesquisar();
+    }
+});
