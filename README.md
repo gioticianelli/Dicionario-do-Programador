@@ -25,8 +25,10 @@ ACESSE O SITE [AQUI](https://gioticianelli.github.io/Dicionario-do-Programador/)
 
 ## 🖼️ Captura de Tela
 
-![print dicionário do programador](https://github.com/user-attachments/assets/1f640907-9298-4684-a85a-f44424c2cd1a)
-![print resposta dicionário do programador](https://github.com/user-attachments/assets/ea1270fa-fb5d-48cc-9f3e-dbdf29a66cfe)
+![print dicionário do programador](https://github.com/user-attachments/assets/6264b4e2-fdbc-44ea-9290-c26666759da3)
+
+![print resposta dicionário do programador](https://github.com/user-attachments/assets/ad883250-8274-4dfd-8afb-1c80931a3241)
+
 
 ## 🚧 Instalação 
 Siga os passos abaixo para configurar o Dicionário no seu ambiente local.
